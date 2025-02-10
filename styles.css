@@ -216,6 +216,26 @@ a{
     margin-top: 0px;
 }
 
+.color1label{
+    display:none;
+}
+
+.color2label{
+    display:none;
+}
+
+.color3label{
+    display:none;
+}
+
+.color4label{
+    display:none;
+}
+
+.color5label{
+    display:none;
+}
+
 @media (max-width:1000px){
     .colorContainer{
         flex-direction: column;
@@ -252,5 +272,43 @@ a{
         justify-content: center;
     }
     
+    .color1label{
+        display:block;
+        color:white;
+        font-size:24px;
+        text-align:center;
+        margin-top: -12px;
+    }
 
+    .color2label{
+        display:block;
+        color:white;
+        font-size:24px;
+        text-align:center;
+        margin-top: -12px;
+    }
+
+    .color3label{
+        display:block;
+        color:white;
+        font-size:24px;
+        text-align:center;
+        margin-top: -12px;
+    }
+
+    .color4label{
+        display:block;
+        color:white;
+        font-size:24px;
+        text-align:center;
+        margin-top: -12px;
+    }
+
+    .color5label{
+        display:block;
+        color:white;
+        font-size:24px;
+        text-align:center;
+        margin-top: -12px;
+    }
 }
