@@ -175,3 +175,82 @@ html{
     text-align: center;
     line-height:110px;
 }
+
+
+.socials{
+    margin-left: 102px;
+}
+
+.socialsHeader{
+    color:white;
+    font-size: 24px;
+    margin-top:104px;
+}
+
+.linkedinLogo{
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+}
+
+.githubLogo{
+    width:32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+}
+
+
+.socialsImages{
+    display: flex;
+    column-gap: 24px;;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.resumeLogo{
+    font-weight: bold;
+    font-size:24px;
+    margin-top: 0px;
+}
+
+@media (max-width:1000px){
+    .colorContainer{
+        flex-direction: column;
+        row-gap: 24px;
+        align-items: center;
+    }
+
+    .color1{
+        width:360px;
+    }
+
+    .color2{
+        width: 360px;
+    }
+    
+    .color3{
+        width: 360px;
+    }
+
+    .color4{
+        width: 360px;
+    }
+
+    .color5{
+        width: 360px;
+    }
+
+    .socials{
+        text-align: center;
+        margin: 0;
+    }
+
+    .socialsImages{
+        justify-content: center;
+    }
+    
+
+}
