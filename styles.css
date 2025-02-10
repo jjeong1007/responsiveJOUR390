@@ -1,0 +1,177 @@
+body{
+    background-color: #1D2125;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+.headingText{
+    color:white;
+    text-align:center;
+}
+
+.colorContainer{
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    margin: 32px;
+}
+
+.color1{
+    width:160px;
+    height:160px;
+    background-color: #B35CFF;
+    border: 2px solid white;
+    border-radius: 32px;
+    transition:0.5s;
+}
+
+.color1:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
+
+.color1:hover .color1Text{
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.color1Text{
+    display: none;
+    font-size:24px;
+    display:none;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    line-height:110px;
+}
+
+
+
+
+.color2{
+    width:160px;
+    height:160px;
+    background-color: #5CFFBE;
+    border: 2px solid white;
+    border-radius: 32px;
+    transition:0.5s;
+}
+
+.color2:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
+
+.color2:hover .color2Text{
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.color2Text{
+    display: none;
+    font-size:24px;
+    display:none;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    line-height:110px;
+}
+
+
+
+.color3{
+    width:160px;
+    height:160px;
+    background-color: #FF5C5C;
+    border: 2px solid white;
+    border-radius: 32px;
+    transition:0.5s;
+}
+
+.color3:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
+
+.color3:hover .color3Text{
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.color3Text{
+    display: none;
+    font-size:24px;
+    display:none;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    line-height:110px;
+}
+
+
+.color4{
+    width:160px;
+    height:160px;
+    background-color: #FFD55C;
+    border: 2px solid white;
+    border-radius: 32px;
+    transition:0.5s;
+}
+
+.color4:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
+
+.color4:hover .color4Text{
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.color4Text{
+    display: none;
+    font-size:24px;
+    display:none;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    line-height:110px;
+}
+
+
+.color5{
+    width:160px;
+    height:160px;
+    background-color: #5C8DFF;
+    border: 2px solid white;
+    border-radius: 32px;
+    transition:0.5s;
+}
+
+
+.color5:hover{
+    transform: translateY(-12px);
+    transition: 0.5s;
+}
+
+.color5:hover .color5Text{
+    display: block;
+    transition: 0.5s;
+    
+}
+
+.color5Text{
+    display: none;
+    font-size:24px;
+    display:none;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    line-height:110px;
+}
