@@ -312,3 +312,13 @@ a{
         margin-top: -12px;
     }
 }
+
+#directory{
+    background: #B35CFF;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+#colorDirectory{
+    color: white;
+}
