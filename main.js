@@ -13,3 +13,9 @@ button.addEventListener("click", function() {
     }
 });
 
+
+
+const purpleButt = document.querySelector(".purpleButton");
+purpleButt.addEventListener("click", function(){
+
+});

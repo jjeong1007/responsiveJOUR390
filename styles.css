@@ -313,12 +313,88 @@ a{
     }
 }
 
+.directoryOptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #directory{
     background: #B35CFF;
     padding: 16px;
     border-radius: 16px;
+    border:none;
+}
+
+#directory:hover{
+    background: #5C8DFF;
+}
+
+#directory:active{
+    background: #5CFFBE;
 }
 
 #colorDirectory{
     color: white;
+    text-align: center;
+}
+
+
+.colorButtons{
+    display:flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.colorButtons > *{
+    width: 72px;
+    height: 32px;
+    border: none;
+    border-radius:16px;
+}
+
+.purpleButton{
+    background-color: #B35CFF;
+
+}
+
+.purpleButton:hover{
+    background-color: #5a347b
+}
+
+
+.greenButton{
+    background-color: #5CFFBE;
+}
+
+.greenButton:hover{
+    background-color: #32916b;
+}
+
+
+.redButton{
+    background-color: #FF5C5C;
+}
+
+.redButton:hover{
+    background-color: #933535;
+}
+
+
+.yellowButton{
+    background-color: #FFD55C;
+}
+
+.yellowButton:hover{
+    background-color: #947d3a;
+}
+
+
+.blueButton{
+    background-color: #5C8DFF;
+}
+
+.blueButton:hover{
+    background-color: #31487c;
 }
